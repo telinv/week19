@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:ital,wght@1,300&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: cornflowerblue;
+        background-image: url("assets/pics/cloud2.png");
+      }
+      .title,
+      h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgb(235, 221, 178);
+        font-family: Rubik Doodle Shadow, Georgia, Times, serif;
+        font-size: 40pt;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+      }
+      input {
+        border: cornflowerblue 1px solid;
+      }
+      .titleOfThePost {
+        height: 40px;
+        width: 150px;
+        margin-bottom: 3%;
+        border-radius: 8%;
+      }
+
+      .textOfThePost {
+        height: 40px;
+        width: 500px;
+        margin-bottom: 4%;
+        border-radius: 6%;
+      }
+      button {
+        background-color: rgb(235, 208, 178);
+        color: cornflowerblue;
+        font-family: Rubik Doodle Shadow, Georgia, Times, serif;
+        border: antiquewhite 1px solid;
+        border-radius: 10%;
+        height: 40px;
+        width: 100px;
+      }
+      button:active {
+        background-color: cornflowerblue;
+        color: rgb(235, 208, 178);
+        border: antiquewhite 2px solid;
+      }
+      h3 {
+        color: rgb(241, 193, 192);
+        font-family: Marck Script, Georgia, Times, serif;
+        font-size: 30pt;
+      }
+      p {
+        color: rgb(221, 192, 241);
+        font-size: 20pt;
+        font-family: Caveat, Georgia, Times, serif;
+      }
+      footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .fa-brands {
+        color: rgb(235, 208, 178);
+        font-size: 50pt;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">My blog</h1>
+      <h2>Create New Post!</h2>
+    </header>
+    <main class="container">
+      <input class="titleOfThePost" type="text" placeholder="Заголовок" />
+      <input class="textOfThePost" type="text" placeholder="Текст поста" />
+      <button class="bForPost">Post</button>
+      <h3></h3>
+      <p></p>
+    </main>
+    <footer>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-telegram"></i>
+    </footer>
+    <script src="task2.1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7819fd0fdd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
